@@ -1,0 +1,10 @@
+-- Se connecter en mysql
+mysql -u root
+-- Afficher les noms des différentes bdd
+show databases;
+-- Créer une bdd poei2018
+create database poei2018;
+-- Se connecter à la bdd poei2018
+use poei2018;
+-- créer la table article
+create table article(id int auto_increment primary key
