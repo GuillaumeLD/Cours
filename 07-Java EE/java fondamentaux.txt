@@ -1,0 +1,35 @@
+Java Fondamentaux
+
+1 classe par fichier
+
+1 fonction d'entrée:
+public static void main (String[] args)
+
+Signature d'une fonction java = type retour + nom + parametres
+ex: "void main (String[] args)"
+
+1er mot clé = modificateur d'accès
+
+public = peut etre appelé de n'importe quelle classe
+private = disponible que dans la classe
+protected = disponible à l'intérieur de l'arborescence d'héritage (de mère à fille et non l'inverse)
+package = disponible à l'intérieur de tout le package
+rien = default = plus ou moins package
+
+2eme mot clé = représente un contexte static ou on peut appeler une fonction à partir
+de la classe sans avoir à instancier d'objet.
+ex : TP1.main();
+Peut etre utilisé directement sur un attribut, une variable, une méthode de la classe.
+
+Toutes les fonctions dans une fonction statique doivent etre statiques.
+ex: dans la fonction main, tout est static.
+Valable aussi pour les attributs déclarés en dehors de la fonction main (dans la classe).
+
+
+Aller sur coding game 
+et faire les tp :
+
+the decent
+power of thor
+temperature
+

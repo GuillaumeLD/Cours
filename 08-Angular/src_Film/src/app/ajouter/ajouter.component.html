@@ -1,0 +1,20 @@
+<h1>Ajouter film</h1>
+
+<input [(ngModel)]="film">
+
+<button (click)="onAction()">
+ok</button>
+
+<table>
+	<tr *ngFor="let f of tabFilm">
+		<td>{{ f.Title }}</td>
+		<td>
+			<img src="{{f.Poster}}" width="200">
+		</td>
+		<td>
+			<button (click)="onAjouterFilm(f)">
+				add
+			</button>
+		</td>
+	</tr>
+</table>

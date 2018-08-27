@@ -1,0 +1,84 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#conteneur {
+    margin: auto;
+    padding:30px;
+    width: 70%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: rgba(27, 165, 27, 0.39);
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#conteneurtop {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.adresse {
+    background-color: rgba(177, 72, 177, 0.74);
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.adresse p {
+    padding: 5px;
+}
+
+.photo {
+    background-image: url(../img/panda.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 350px;
+    height: 200px;
+    border: 1px dotted black;
+}
+
+.titre {
+    background-color: rgba(206, 147, 20, 0.692);
+    width: 90%;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.lstexperience {
+    width:90%;
+    list-style-type: none;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.lstdiplome {
+    width: 90%;
+    list-style-type: none;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+li {
+    padding: 5px;
+}
+
+.fondexperience {
+    background-color: rgb(91, 129, 91);
+}
+
+.fonddiplome {
+    background-color:rgba(146, 176, 185, 0.733);
+}

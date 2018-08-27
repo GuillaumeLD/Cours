@@ -1,0 +1,12 @@
+<h1>Nombre Magic </h1>
+<h2>{{ magic }}</h2>
+
+<input [(ngModel)]="nombre">
+
+<br><br>
+<button [disabled]="rejouer" 
+(click)="onJouer()">Jouer</button>
+<div>{{ info }}</div>
+<button
+  *ngIf="rejouer"
+  (click)="onReJouer()">Re jouer</button>

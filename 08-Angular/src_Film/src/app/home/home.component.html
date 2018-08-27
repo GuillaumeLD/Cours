@@ -1,0 +1,8 @@
+<h1> Liste de films</h1>
+
+<table>
+	<tr *ngFor="let f of catalogue.tabFilm">
+		<td>{{ f.name }}</td>
+		<td><img src="{{ f.image }}" width="200"></td>
+	</tr>
+</table>

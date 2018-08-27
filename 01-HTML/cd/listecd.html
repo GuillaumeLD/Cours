@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" media="all" href="css/listecd.css">
+    </head>
+    <body>
+        <div id="conteneur">
+            <header>
+                Notre liste de musique
+            </header>
+            <form id="ajoutercd" action="" method="GET">
+                <p>
+                    <label for="nomalbum">Nom de l'album : </label>
+                    <input type="text" name="nomalbum" id="nomalbum" size="1" maxlength="5" />
+                </p>
+                <p>
+                        <label for="nomauteur">Nom de l'auteur : </label>
+                        <input type="text" name="nomauteur" id="nomauteur" />
+                </p>
+                <p>
+                        <label for="anneesortie">Année de sortie : </label>
+                        <input type="number" name="anneesortie" id="anneesortie" />
+                </p>
+                <p>
+                        <label for="nbpiste">Nombre de pistes : </label>
+                        <input type="number" name="nbpiste" id="nbpiste" />
+                </p>
+                <p>
+                        <label for="genre">Genre : </label>
+                        <input type="text" name="genre" id="genre" />
+                </p>
+     
+                
+                <input id="validercd" type="submit" value="Ajouter" />
+            </form>
+            <section id="liste">
+                <form action="" method="GET">
+                    <article class="cd">
+                        <img class="imagecd" src="img/imagecd1.jpg" alt="Discovery"/>
+                        <div class="nomcd"><a href="detailcd1.html">Discovery</a></div>
+                        <button class="btnalbum" name="album" type="submit" value="Discovery">PWET</button>
+                    </article>
+                    <article class="cd">
+                        <img class="imagecd" src="img/imagecd2.jpg" alt="Brave Enough"/>
+                        <div class="nomcd"><a href="detailcd2.html">Brave Enough</a></div>
+                        <button class="btnalbum" name="album" type="submit" value="Brave Enough">PWET</button>
+                    </article>
+                    <article class="cd">
+                        <img class="imagecd" src="img/imagecd3.jpg" alt="Blueprint"/>
+                        <div class="nomcd"><a href="detailcd3.html">Blueprint</a></div>
+                        <button class="btnalbum" name="album" type="submit" value="Bluesprint">PWET</button>
+                    </article>
+                </form>
+            </section>
+            <footer>Site réalisé par Guillaume et Marine ^^</footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+#container {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+}
+
+.carre {
+    width: 200px;
+    height: 200px;
+}
+
+.carre:nth-child(2) {
+    align-self: flex-end;
+}
+
+.bleu {
+    background-color:blue;
+}
+
+.vert {
+    background-color:green;
+}
+
+.rouge {
+    background-color:red; 
+}

@@ -1,0 +1,29 @@
+<li [ngClass]="{
+	'list-group-item':true,
+	'list-group-item-success': appareil.status==='allumé',
+	'list-group-item-danger': appareil.status==='éteint'
+		}">
+
+<h1>{{ appareil.name }}</h1>
+<div>{{ appareil.status }} - {{ indexOfAppareil }}</div>
+<!--
+<button class="btn btn-success"
+	*ngIf="appareil.status === 'éteint'"
+	(click)="onAllumer()">
+	ON </button>
+<button class="btn btn-danger"
+	*ngIf="appareil.status === 'allumé'"
+	(click)="onEteindre()">
+	OFF
+</button>
+-->
+<button class="btn"
+	[ngClass]="{
+	'btn-danger' : appareil.status === 'allumé',
+	'btn-success' : appareil.status === 'éteint'	
+	}"
+	(click)="onSwitch()"
+>
+	{{ getButtonText()}}
+</button>
+</li>

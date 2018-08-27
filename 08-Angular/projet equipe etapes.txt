@@ -1,0 +1,8 @@
+1) Créer equipe.ts dans ./models/
+2) Ajouter 1 équipe
+3) Intégrer la partie graphique index.html
+3bis) Ajouter 1 id dans Equipe et 1 id dans Personne
+4) Créer entreprise.ts dans ./models/
+5) Ajouter 1 personne dans une equipe
+6) Ajouter une personne dans l'entreprise
+7) Supprimer une personne dans l'entreprise

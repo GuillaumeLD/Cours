@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0072)http://www.edu.upmc.fr/fsm/i02/j02/exerciceTD/mcdSolutions/solution4.php -->
+<html xmlns:spry="http://ns.adobe.com/spry"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<title>Solution de l'exercice 4</title>
+<link href="./Solution de l'exercice 4_files/supportPHP2.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="./Solution de l'exercice 4_files/HTMLtoText.js">
+</script>
+</head>
+<body>
+ <div id="tout">
+ <div class="enveloppe">
+   <h1>Solution de l'exercice 4</h1>
+      <div id="retour">
+     <a href="http://www.edu.upmc.fr/fsm/i02/j02/index.php"><img src="./Solution de l'exercice 4_files/retouIndex2.png" alt="Vers la table des matières" width="47" height="33"></a>     </div>
+ </div>
+
+  <fieldset class="exempleTouteLaLargeur">
+  <legend>solution </legend>
+  <ol>
+    <li> Un  patient peut-il effectuer plusieurs consultations ? <br>
+    En effet, la cardinalité 1,n indique qu'il peut en prendre plusieurs.</li>
+    <li> Un médecin peut-il  recevoir plusieurs patients dans la même consultation ?<br>
+      Non, les cardinalités 1,1 de part et d'autre de l'entité consultation indique qu'une consultation ne peut avoir qu'un seul et unique patient avec un seul et unique médecin.</li>
+    <li> Peut-on prescrire  plusieurs médicaments dans une même consultation ? <br>
+    Oui, les cardinalité 0,n entre la consultaion et le médicament précisent qu'à une consultation donnée, on peut prescrire aucun, un ou plusieurs médicaments.</li>
+    <li> Deux médecins différents  peuvent-ils prescrire le même médicament ?<br>
+    Bien sur, un patient peut prendre plusieurs consultations (cardinalités 0,n) avec des médecins différents (pas de contrainte entre le patient et le medecin qui traduirait un medecin référent !)</li>
+  </ol>
+  </fieldset>
+  <div class="question"></div>
+</div>
+
+
+</body></html>

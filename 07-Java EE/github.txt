@@ -1,0 +1,45 @@
+demander 
+
+- cb de joueurs
+- nom perso 1
+- hp 1
+- ap1
+arme perso 1 (+afficher liste)
+idem armure
+
+
+idem perso 2 et +
+
+
+GIT HUB
+
+1)
+ouvrir le repertoire du projet (ex: tp9objet)
+
+clic droit -> gitbash here
+
+cmd :
+
+> git init
+> git config --global user.name myname(pseudo)
+> git config --global user.email mymail(of github)
+> git add -A
+> git commit -m "mon message" (ex : "coucou c'est mon 1er commit")
+
+2)
+sur github.com :
+
+créer un nouveau repository
+suivre 2eme doc (en https)
+
+sur mon pc perso (pour récuperer) :
+
+faire la meme chose (clic droit -> bash here)
+
+3)
+> git clone adresse de votre repository
+
+4)
+> git add -A
+> git commit -m "mon message"
+> git push

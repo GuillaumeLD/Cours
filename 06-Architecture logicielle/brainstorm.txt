@@ -1,0 +1,103 @@
+Architecture logicielle
+
+Mots important liés à l'architecture logicielle :
+
+
+MVC
+Modele Vue Controleur
+
+L'idée est de cloisoner les 3 grandes parties d'un logicielle
+
+Modèle
+Représentation de données. ne contient aucune action, ni aucune fonction permettant de faire des choses.
+Uniquement des fonction de distribution de propriétés d'éléments. Ce n'est qu'un conteneur de données
+Tous les objets liés au réel, représentation du métier
+
+Vue
+Tout ce qui est représentation graphique, pour un ou des élements du modèle
+(ex: affichage d'un arbre, d'une liste d'arbre, d'une liste d'arbre d'une certaine foret, etc)
+
+Controleur
+Role de coordination entre le modele et la vue.
+permet de récupérer 1 ou 0 élement du modèle et de l'injecter dans la vue
+ou de récupérer les intéractions de la vue et de l'injecter dans le modele
+
+Manager
+Vue + controleur (pour faire des applications consoles)
+
+Autre
+Base de données, Accès à la base de données, dossier d'utilitaire (ex: mettre en majuscules des mots)
+
+
+Objet
+
+
+Classe
+
+
+Bibliothèque
+= ensemble de classes et de fonctionnalités réutilisables selon les types de projets
+
+
+Structuration
+Façons de créer un projet (plusieurs architectures logicielles possibles si plusieurs plateformes)
+
+BDD
+
+
+Langages
+
+
+Framework
+= ensemble de bibliotheques entre autres.
+
+
+ORM
+= Framework spécifique aux bdd
+
+
+Algo
+= Manière d'organiser le code pour arriver à un objectif
+
+
+CDC (besoin)
+
+
+Gestion de projets
+
+
+Multiplateforme
+
+
+Normes de développement
+Règles définies pour nommer les éléments.
+Egalement, choix de l'environnement de développement (BDD, framework, etc.), et des outils de développement
+exemple :
+Règles usuelles définies par Sun MS, décrivant la façon d'écrire les classes (CamelCase), une fonction (lowerCamelCase), package (lowercase)
+Ces règles ne sont pas universelles (ex: en C# une fonction est en CamelCase, etc.. tout dépend du langage utilisé).
+
+
+Versionning
+Avoir un suivi l'historique des changements d'un programme/projet
+Permet de partager/modifier des portions du projet pour l'ensemble de l'equipe de projet.
+Permet de pouvoir revenir en arrière au moment ou ça marchait, ou de revenir à des versions précédentes.
+Permet de fournir à un client un projet dans un état spécifique (ex: v1 avec les plugins 1 et 2)
+Permet de sécuriser son propre PC
+
+
+Intégration continue
+Le fait de mettre en place des outils qui permet de faire un suivi informatique de ses projets.
+Connaitre l'état de santé de son projet (est ce qu'il compile ?).
+Le serveur d'intégration continue permet de signaler si un projet ne fonctionne plus. Se sert du versionning.
+Remonte des stats vis a vis des normes de dev et previent si les normes ne sont pas respectées
+(ex: une fonction n'a pas le droit de faire + de 4 parametres, + de 200 lignes, + de 4 boucles imbriquées, etc)
+Permet de prouver que son travail est de haute qualité par des graphiques (par rapport a la relation client positive, qui voit la bonne avancée du projet)
+
+
+Tests
+Capacité de jouer deux types de tests:
+tests unitaires : un code valide qu'une fonction fonctionne. (ex: un mdp doit faire + de 8 carac, des carac spéciaux etc, puis tester avec des mots de passes différents).
+	Pas de régression en cas de changement du reste du code (la fonction marche tout le temps)
+tests fonctionnels : test d'un point de vue utilisateur qu'un programme fonctionne directement. Manipulation brute pour vérifier qu'une application ne plante pas quelquesoit
+les scénarios utilisateurs.
+

@@ -1,0 +1,14 @@
+component : 3 fichiers
+
+- html (vue)
+- ts (controleur)
+- scss / css
+
+ts ------> html
+   <------
+MVVM (Model View View Model)
+
+Tout le code angular est une imbrication de components
+dans le html <app-root> fait appel au repertoire <app>
+
+Interpolation = { { title } }

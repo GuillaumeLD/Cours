@@ -1,0 +1,43 @@
+<br><br>
+<table class="table table-striped">
+	<tr>
+		<td colspan="3">
+			<h3> {{ equipe.name }} 
+				<button class="btn btn-primary" 
+					(click)="onEnleverEquipe()"
+				>
+					<i class="fa fa-trash" aria-hidden="true" ></i>
+				</button>
+				<form (ngSubmit)="onAjouterPersonne(b)" 
+        #b="ngForm">
+					<select name="personne" ngModel>
+						<option *ngFor="let p of getListPersonne()"
+						[ngValue]="p"
+						>
+							{{p.prenom}} {{p.nom}}
+						</option>
+					</select>
+					<button class="btn btn-warning" type="submit">
+						Add
+					</button>
+				</form>
+
+			</h3>
+		</td>
+	</tr>
+	<tr>
+		<th>Prénom</th>
+		<th>Nom</th>
+		<th></th>
+	</tr>
+	<tr *ngFor="let p of equipe.tabPersonne">
+		<td>{{ p.prenom }}</td>
+		<td>{{ p.nom }}</td>
+		<td>
+			<button class="btn btn-warning">
+				del
+			</button>
+		</td>
+	</tr>
+
+</table>

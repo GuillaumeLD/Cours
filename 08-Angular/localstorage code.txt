@@ -1,0 +1,40 @@
+local storage
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
+})
+export class AppComponent {
+  nom = '';
+  prenom = '';
+
+  onSave(){
+      let personne:any = {};
+      personne.nom = this.nom;
+      personne.prenom = this.prenom;
+
+      let str = JSON.stringify(personne);
+    //localStorage.personne = str;
+    localStorage.setItem('personne',str);
+
+  }
+  onLoad(){
+      //let str2 = localStorage.personne;
+      let str2 = localStorage.getItem('personne');
+      let p2 = JSON.parse(str2);
+      this.nom = p2.nom;
+      this.prenom = p2.prenom;
+
+  }
+}
+<input [(ngModel)]="nom" placeholder="nom">
+
+<input [(ngModel)]="prenom" placeholder="prenom">
+
+<br><br>
+
+<button (click)="onSave()"  >SAVE</button>
+
+<button (click)="onLoad()"  >LOAD</button>

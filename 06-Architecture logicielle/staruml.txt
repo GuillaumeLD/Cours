@@ -1,0 +1,13 @@
+Star UML
+
+Class -> CamelCase -> fichier
+package -> lowercase -> dossier
+
+Empilement
+package1.package2.package3
+
+normes
+
+com	. societe . projet (donc 3 dossiers jusque là) 	. monpackage1
+fr													. monpackage2
+													. monpackage3

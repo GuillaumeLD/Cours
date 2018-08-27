@@ -1,0 +1,20 @@
+1) Library mysql-connector
+	- télécharger
+	- ajouter au projet
+
+2) Classe de connexion BDD
+	- singleton
+implémentation :
+https://stackoverflow.com/questions/2839321/connect-java-to-a-mysql-database
+	
+3) Classe des requetes
+	- Select -> retourne tableau
+	- le reste -> retourne entier
+
+4) Créer des modèles et gérer la persistance
+	- CRUD (Create Read Update Delete)
+
+5) Design Pattern DAO (Data Access Object)
+
+une URL est une URI, une URI commence par un schema
+

@@ -1,0 +1,19 @@
+.red {
+    color: red;
+}
+
+h1.red {
+    background-color:violet;
+}
+
+p, li {
+    background-color: green;
+}
+
+li p {
+    background-color: yellow;
+}
+
+li ~ p {
+    font-weight: bold;
+}

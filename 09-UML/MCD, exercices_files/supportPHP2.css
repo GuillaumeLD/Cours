@@ -1,0 +1,706 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Trebuchet MS", Tahoma, sans-serif;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+}
+fieldset{
+	margin:0;
+	padding:0;
+}
+em {
+	font-style: italic;
+}
+#composition {
+	list-style-type: none;
+	background: #F6F6F6;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	padding: 3px 60px;
+}
+#composition  li {
+		float:left;
+		line-height: 19px;
+}
+#composition  li:last-child {
+		float:none;
+}
+#composition a {
+	color: #000000;
+	text-decoration: none;
+}
+#composition a:hover {
+	display: block;
+}
+#composition a:hover  .souligne {
+	text-decoration: underline;
+}
+#composition a img {
+	border: none;
+	vertical-align: bottom;
+}
+h1 {
+	padding: 2px;
+	text-align: center;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	margin: 0px;
+}
+h2 {
+	clear: both;
+	font: bold 14px Verdana;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #CCC;
+	color: #4678FF;
+	margin: 12px 0 8px;
+}
+.sousSection {
+	width: 730px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 0px;
+	clear: both;
+}
+h3 {
+	margin-top: 5px;
+	clear: both;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+.colorationRouge {
+	color: #FF0000;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	display: inline;
+	border: 1px solid #FF0000;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+.colorationBleu {
+	color: #0066CC;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	border: 1px solid #0066CC;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.cours {
+	padding: 0px;
+	border: 1px solid #000000;
+}
+.cours td {
+	margin: 0px;
+	padding: 2px;
+}
+table.cours caption {
+	padding-left:20px;
+	text-align:left;
+}
+.alignementCentre {
+	text-align: center;
+}
+
+.exemple td {
+	border: 2px solid #00FF66;
+	padding: 2px;
+}
+.encadrementFieldset {
+	border: 1px solid #000000;
+}
+.exempleEcran {
+	border: 1px solid #000000;
+	padding: 2px;
+	width: 300px;
+}
+.exempleEcranLibre {
+	border: 1px solid #000000;
+	padding: 2px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	display:inline-block;
+}
+
+.exempleEcran2 {
+	border: 1px solid #000000;
+	padding: 2px;
+	width: 400px;
+	float: left;
+	margin: 0px;
+}
+.exempleEcranLong {
+	border: 1px solid #000000;
+	padding: 2px;
+	width: 400px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+.exempleEcranLong2 {
+	border: 1px solid #CCC;
+	padding: 2px;
+	width: 400px;
+	float: left;
+	clear: both;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+.exempleEcran500 {
+	border: 1px solid #CCC;
+	padding: 2px;
+	width: 495px;
+	float: left;
+	clear: both;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+.referencetableau {
+	border: 1px solid #000000;
+	border-collapse:collapse;
+	margin-top:5px;
+	width:100%;
+}
+.referencetableau caption {
+	padding-left : 20px;
+	text-align:left;
+}
+.referencetableau  td , .referencetableau  th{
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	padding: 2px;
+}
+
+.tableauExemple {
+	margin: 0px;
+	padding: 0px;
+	width: 748px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+.exemple {
+	border: 1px solid #CCC;
+	padding: 5px;
+	width: 300px;
+	margin-bottom: 5px;
+}
+.exempleEcran {
+	width: 100%;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-color: #FFFFFF;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	clear: both;
+}
+.exempleEcran302 {
+	width: 302px;
+	padding: 0px;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	clear: both;
+	border: 1px solid #CCC;
+}
+.exempleLong {
+	border: 1px solid #000000;
+	padding: 5px;
+	width: 500px;
+	margin-bottom: 5px;
+}
+.exempleTouteLaLargeur {
+	border: 1px solid #CCC;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+.exempleTouteLaLargeurLibre {
+	border: 1px solid #CCC;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.reference {
+	border: 1px solid #CCC;
+	display: block;
+	margin: 0px;
+	padding:0px;
+}
+.reference p{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.reference legend {
+	margin-left: 20px;
+}
+fieldset legend {
+	margin-left: 20px;
+}
+.reference2 {
+	border: 1px solid #000000;
+	width: 748px;
+	margin: 0px;
+	clear: both;
+	padding: 0px;
+}
+
+
+/*.reference legend {
+	background-color: #FFCC33;
+	border: 1px solid #000000;
+}*/
+
+.ecran {
+	width: 300px;
+	padding: 2px;
+	border: 1px solid #CCC;
+}
+.ecran2 {
+	width: 200px;
+	padding: 2px;
+	border: 1px solid #000000;
+	float: left;
+	margin: 0px;
+}
+.ecranCourt {
+	width: 200px;
+	padding: 2px;
+	border: 1px solid #000000;
+}
+.ecranCourt2 {
+	width: 200px;
+	padding: 2px;
+	border: 1px solid #CCC;
+	float: right;
+	margin: 0px;
+}
+
+
+.execution td {
+	border: 2px solid #339933;
+}
+
+
+
+
+.question a {
+	text-decoration: none;
+	background-color:#CDCDCD;
+	border: 1px solid #000;
+	display: block;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 22px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #247AE0;
+}
+.question a:hover {
+	text-decoration: underline;
+}
+.question {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.question2 {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.question2 a:hover {
+	text-decoration: underline;
+}
+.question2 a {
+	text-decoration: none;
+	background-color:#CDCDCD;
+	border: 1px solid #000;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	height: 22px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+
+#tout {
+	width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 0px solid #000000;
+	padding: 0px;
+}
+
+.enveloppe {
+	background: #F6F6F6;
+	border-width: 1px 0px;
+	border-style: solid ;
+	border-color:#CCC;
+	padding: 5px 6px;
+}
+.enveloppe a img {
+	border: 0;
+}
+#saisie {
+	float: left;
+	width: 370px;
+	border: 1px double #000000;
+	margin-top: 10px;
+	padding: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#editeur {
+	width: 500px;
+	margin: 0px;
+}
+.saisie {
+	float: left;
+	width: 370px;
+	border: 1px double #000000;
+	margin-top: 10px;
+	padding: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.editeur {
+	width: 480px;
+	margin: 0px;
+}
+.editeurLong {
+	width: 740px;
+	margin: 0px;
+}
+.editeur_requete textarea, .reponse_requete {
+	width:750px;
+	border:1px solid #000;
+}
+.reponse_requete {
+	color:gray;
+	padding:2px;
+}
+.reponse_requete td {
+	text-align:center;
+}
+.reponse_requete th {
+		border:1px solid gray;
+}
+
+.corrigeBouton {
+	clear: both;
+}
+
+#Submit1 {
+	border: 1px double #000000;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#corrige {
+	border: 1px double #000000;
+	margin-top: 5px;
+}
+.Submit1 {
+	float: left;
+	border: 1px double #000000;
+	margin-top: 60px;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.Submit0 {
+	border: 1px double #000000;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+.corrige {
+	border: 1px double #000000;
+	margin-top: 5px;
+}
+.solution {
+	visibility: hidden;
+	position: absolute;
+}
+
+
+#resultat {
+	width: 320px;
+	padding-left: 5px;
+	border: 1px double #000000;
+	float: left;
+	padding-right: 5px;
+	margin-top: 10px;
+}
+.resultat {
+	width: 320px;
+	padding-left: 5px;
+	border: 1px double #000000;
+	float: left;
+	padding-right: 5px;
+	margin-top: 10px;
+}
+.centrer {
+	text-align: center;
+}
+#form2 {
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+}
+#enonce {
+	border: 1px solid #CCC;
+	width: 748px;
+	padding: 0px;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+}
+.standard {
+	width: 750px;
+}
+.listeExemple {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.coche {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+.alignementHaut {
+	vertical-align: top;
+}
+#retour {
+	float:right;
+}
+#tdm {
+	margin-right: auto;
+	margin-left: auto;
+	width: 500px;
+	list-style-type: none;
+	margin-top: 10px;
+	padding-right: 20px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#tdm li {
+	width: 500px;
+	height: 22px;
+}
+#tdm li:hover {
+	background-image: url(signaletique/tirete-haut17-large500.png);
+}
+.tdmcours {
+	float:right;
+	padding: 0px;
+	margin: 0px;
+	width: 140px;
+}
+
+#tdm li a {
+	color:#000000;
+	text-decoration: none;
+	float:left;
+}
+#formu {
+	border: 2px dotted #FF0000;
+	margin: 10px;
+}
+.affiche {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	text-align: center;
+	width: auto;
+}
+
+#identification input {
+	border: 1px solid #000000;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.divBoutonsTestEnLigne {
+	float: left;
+	width: 242px;
+	text-align: center;
+}
+.boutonTest {
+	width: 220px;
+	border: 1px solid #000000;
+	margin-top: 10px;
+}
+.masque {
+	display: none;
+}
+.testerMaSolution {
+	width: 300px;
+}
+.clePrimaire {
+	text-decoration: underline;
+}
+.droitReserve {
+	font-size: x-small;
+	font-weight: bolder;
+	text-align: right;
+}
+.droitReserve img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	vertical-align: middle;
+}
+.droitReserveTitre {
+	text-align: center;
+	width: 100%;
+	vertical-align: middle;
+}
+.droitReserveTitre img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	vertical-align: middle;
+}
+.listeTirete {
+	list-style-image: url(signaletique/tirete.png);
+}
+.ecranTresCourt {
+	width: 120px;
+	padding: 2px;
+	border: 1px solid #000000;
+	float: left;
+	margin: 0px;
+}
+.ecranCourtLeft {
+	width: 200px;
+	padding: 2px;
+	border: 1px solid #000000;
+	float: left;
+}
+.semiColonne {
+	width: 370px;
+	margin-left: 10px;
+}
+code , .codePHP {
+	text-align:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-right:0px;
+	text-indent:0px;
+	line-height:14px;
+}
+code , code.codePHP {
+	margin: 0px;
+	letter-spacing: 0.2em;
+	white-space: pre;
+}
+
+.codePHP span {
+ 	font-family:'Arial',sans-serif;
+ 	font-size:10pt;
+ 	font-style:normal;
+ 	font-weight:bold
+}
+.codePHP .commentaire {
+	font-weight:normal;
+	color:#FF9A00;
+}
+.codePHP .syntaxe {
+	font-weight:normal;
+	color:#0000FF;
+}
+.codePHP .variable {
+	font-weight:normal;
+	color:#0063FF;
+}
+.codePHP .constante {
+	font-weight:normal;
+	color:#000000;
+}
+.codePHP .string {
+	font-weight:normal;
+	color:#CC0000;
+}
+.codePHP .motCle {
+	font-weight:normal;
+	color:#006300;
+}
+.codePHP .delimitateur {
+	font-weight:normal;
+	color:#00009A;
+}
+.codePHP .debutFin {
+	font-weight:normal;
+	color:#FF0000;
+}
+.boutonCours {
+	font-family: "Arial Rounded MT Bold", "sans-serif";
+	font-size: 16px;
+	font-weight: 900;
+	height: 19px;
+	width: 45px;
+	padding-bottom: 2px;
+	margin: 0px;
+	float: left;
+	text-align: center;
+}
+.boutonCoursLettre {
+		background-color: #F0DB01;
+}
+.boutonExo1Lettre {
+		background-color: #B3DB14;
+}
+.boutonExo2Lettre {
+		background-color: #E30B65;
+}
+.imageFlottanteDroite {
+	float: right;
+	margin:5px;
+	border:none ;
+}
+.segment  th, .segment  td {
+	padding-right: 4px;
+	padding-left: 4px;
+	border: 1px solid #000;
+	text-align:center;
+/*	border-collapse:collapse; */
+}
+.segment  th {
+	color:#FFF;
+	background-color:#000;
+}
+.alignementDroite {
+	text-align: right;
+}
+.pedagogique {
+	text-align:center;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+
+}
+.clearBoth {
+	clear: both;
+	padding-top: 20px;
+}
+.saut_de_page {
+	page-break-after: always;
+}
