@@ -1,0 +1,8 @@
+package com.capgemini.demo.model;
+
+public class MonModele {
+
+	private String truc;
+	private String bidule;
+	
+}

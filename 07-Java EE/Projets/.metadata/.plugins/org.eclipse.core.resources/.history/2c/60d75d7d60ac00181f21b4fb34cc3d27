@@ -1,0 +1,26 @@
+package main.java.com.capgemini.asynchronisme.test.Model;
+
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class ConcreteCommand extends Command {
+
+    /**
+     * Default constructor
+     */
+    public ConcreteCommand() {
+    }
+
+ 
+
+    /**
+     * 
+     */
+    public void execute() {
+        // TODO implement here
+    }
+
+}

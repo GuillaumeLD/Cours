@@ -1,0 +1,8 @@
+package com.capgemini.tp.tp9objet.model;
+
+public class Stats {
+	private int hp;
+	private int ap;
+	private int currentHp;
+	private int currentAp;
+}

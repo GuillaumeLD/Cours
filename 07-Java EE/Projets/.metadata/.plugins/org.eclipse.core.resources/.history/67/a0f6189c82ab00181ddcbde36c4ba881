@@ -1,0 +1,8 @@
+package com.capgemini.asynccommand;
+
+public interface Command{
+	
+	List<Function<Object,Object>>;
+	
+	public abstract void execute();
+}

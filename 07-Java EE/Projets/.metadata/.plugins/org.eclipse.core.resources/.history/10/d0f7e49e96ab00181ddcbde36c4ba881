@@ -1,0 +1,38 @@
+package com.capgemini.asynccommand;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		System.out.println("Test");
+		thread1(2);
+		
+	}
+
+	private static void thread1(int loop) {
+
+		Thread t1 = new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				for (int i = 0; i < loop; i++) {
+					CommandWorker cw1 = new CommandWorker();
+					cw1.execute();
+				}
+			}
+		});
+		
+		Thread t2 = new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				for (int i = 0; i < loop; i++) {
+					CommandWorker cw2 = new CommandWorker();
+					cw2.execute();
+				}
+			}
+			
+		});
+	}
+
+}

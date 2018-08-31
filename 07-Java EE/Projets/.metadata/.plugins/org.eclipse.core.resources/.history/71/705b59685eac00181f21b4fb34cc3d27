@@ -1,0 +1,28 @@
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class ConcreteCommand extends Command {
+
+    /**
+     * Default constructor
+     */
+    public ConcreteCommand() {
+    }
+
+    /**
+     * 
+     */
+    private void state;
+
+
+    /**
+     * 
+     */
+    public void execute() {
+        // TODO implement here
+    }
+
+}

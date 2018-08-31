@@ -1,0 +1,64 @@
+package com.capgemini.demo.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.capgemini.demo.model.MonModele;
+import com.google.gson.Gson;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestAttribute;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@RestController()
+@RequestMapping("/MonModele")
+public class MonModeleController {
+	
+	List<MonModele> table = new ArrayList<MonModele>();
+	Gson gson = new Gson();
+	
+	public MonModeleController() {
+		table.add(new MonModele("truc","bidule",3,true,new String[] {"di","do","du"}));
+		table.add(new MonModele("truc","muche",10,true,new String[] {"ti","to","ta"}));
+		table.add(new MonModele("doudou","bidule",11,false,new String[] {"la","li","lo"}));
+	}
+	
+    @RequestMapping(path={"","/"},method=RequestMethod.GET)
+    public String index() {
+    	return gson.toJson(table);
+    }
+    
+    @RequestMapping("/{index}")
+    public String getByIndex(@PathVariable("index") Integer index) {
+    	return gson.toJson(table.get(index));
+    }
+
+    @RequestMapping(path={"","/"},method=RequestMethod.POST)
+    public String postItem(@ModelAttribute MonModele monModele) {
+    	this.table.add(monModele);
+    	return gson.toJson(monModele);
+    }
+    
+    @RequestMapping(path={"","/"},method=RequestMethod.PUT)
+    public String updateItem(@ModelAttribute MonModele monModele) {
+    	for(MonModele item : table) {
+    		if (item.getKey().equals(monModele.getKey())) {
+    			item = monModele;
+    			break;
+    		}
+    	}
+    	return gson.toJson(table.get(table.indexOf(monModele)));
+    }
+    
+    @RequestMapping(path={"","/"},method=RequestMethod.DELETE)
+    public String deleteItem(@ModelAttribute MonModele monModele) {
+    	this.table.remove(monModele);
+    	return "ok";
+    }
+}

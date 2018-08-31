@@ -1,0 +1,9 @@
+package com.capgemini.tp.tp9objet.model;
+
+public class Player {
+
+	private String name;
+	private Stats stats;
+	private Weapon weapon;
+	private Armor armor;
+}

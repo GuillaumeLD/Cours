@@ -1,0 +1,29 @@
+package com.capgemini.asynccommand;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Function;
+
+public class CommandWorker implements Command {
+	
+	List<Function<Object, Object>> functionList = new ArrayList<Function<Object,Object>>();
+	int currentIndex;
+	
+	@Override
+	public void execute() {
+		sayHello();
+	}
+	
+	private void sayHello() {
+System.out.println("Hello world !");		
+	}
+
+	public void previous() {
+		
+	}
+	
+	public void addFunction(Function<Object,Object> func) {
+		functionList.add(func);
+	}
+
+}

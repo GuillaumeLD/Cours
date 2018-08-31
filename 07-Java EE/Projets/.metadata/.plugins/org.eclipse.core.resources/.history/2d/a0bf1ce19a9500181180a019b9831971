@@ -1,0 +1,5 @@
+package com.capgemini.tp.tp9objet.model;
+
+public class Weapon {
+
+}

@@ -1,0 +1,18 @@
+package main.java.com.capgemini.asynchronisme.test.Model;
+
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class CommandWorker {
+
+    /**
+     * Default constructor
+     */
+    public CommandWorker() {
+    }
+
+
+}

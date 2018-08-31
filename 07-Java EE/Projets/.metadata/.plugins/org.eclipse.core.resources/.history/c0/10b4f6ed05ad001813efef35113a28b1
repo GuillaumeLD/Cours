@@ -1,0 +1,51 @@
+package com.capgemini.demo.model;
+
+public class MonModele {
+
+	private String truc;
+	private String bidule;
+	private int monInt;
+	private boolean maBoule;
+	private String[] tabchaine;
+	
+	public MonModele(String truc, String bidule, int monInt, boolean maBoule) {
+		super();
+		this.truc = truc;
+		this.bidule = bidule;
+		this.monInt = monInt;
+		this.maBoule = maBoule;
+	}
+
+	public String getTruc() {
+		return truc;
+	}
+
+	public void setTruc(String truc) {
+		this.truc = truc;
+	}
+
+	public String getBidule() {
+		return bidule;
+	}
+
+	public void setBidule(String bidule) {
+		this.bidule = bidule;
+	}
+
+	public int getMonInt() {
+		return monInt;
+	}
+
+	public void setMonInt(int monInt) {
+		this.monInt = monInt;
+	}
+
+	public boolean isMaBoule() {
+		return maBoule;
+	}
+
+	public void setMaBoule(boolean maBoule) {
+		this.maBoule = maBoule;
+	}
+	
+}

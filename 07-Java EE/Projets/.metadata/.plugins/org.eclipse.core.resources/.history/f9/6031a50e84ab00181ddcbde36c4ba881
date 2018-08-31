@@ -1,0 +1,23 @@
+package com.capgemini.asynccommand;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Function;
+
+public class CommandWorker implements Command {
+	
+	List<Function<Object, Object>> functionList = new ArrayList<Function<Object,Object>>();
+
+	@Override
+	public void execute() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public int currentIndex() {
+		
+		return 0;
+	}
+	
+
+}
