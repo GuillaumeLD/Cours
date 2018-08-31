@@ -1,0 +1,72 @@
+
+-- L'éditeur : pour les messages de commit
+git config --global core.editor <editor>
+
+-- L'outil de différentiel : en cas de conflit lors d'un message
+git config --global merge.tool <diff_editor>
+ex : kdiff3, tkdiff, meld, xxdiff etc
+
+-- initialiser le dépot
+git init
+
+-- "annuler" un add
+git checkout <file>
+
+-- tags (numéros de version)
+git tag
+git tag <tagname>
+git checkout <tagname>
+git push --tags
+
+Branches (Workflow)
+
+master -> branche qui sera la branche principale de release (de prod)
+branche qui sera montrée à l'oral, aucune autre
+commit de master -> build (le projet run niquel dans une version N)
+
+dev -> pré-prod, valider que les fonctionnalités fonctionnent
+mais le projet ne se lance pas forcément
+
+features
+f1 f2 f3 ...
+segmenter les éléments (les fonctionnalités du projet)
+f1 = 1ere fonctionnalité
+f2 = 2eme... etc
+
+liste des branches
+git branch
+
+-- créer une branche
+git checkout -b <branch_name> (sauf branche deja existante en local)
+
+-- basculer dans une branche
+git checkout <branch_name>
+
+-- supprimer une branche
+git branch -d <branch_name>
+
+-- visualiser toutes les branches locales et distantes
+git branch -a
+(faire un git fetch avant pour synchroniser les actions d'historiques réalisées)
+
+-- merge des branches (fusionner des branches/ des historiques)
+git merge <branch_name>
+
+:wq (+entrée) dans l'éditeur VIM du merge
+Ne pas mettre de message au commit pendant un merge (auto generé)
+
+-- rebaser une branche 
+(pour n'avoir un seul fil et clarifier les niveaux de merge dans gitg)
+git rebase <branch_name>
+
+-- Défaire un commit
+git revert <numero_commit>
+(voir le numero de commit dans gitk -> SHA1 ID)
+
+-- rejouer un commit deja fait
+git cherry-pick <numero_commit>
+
+
+
+
+

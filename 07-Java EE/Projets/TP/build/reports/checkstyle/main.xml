@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.13">
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPAdapter\src\AdapterPatternDemo.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPAdapter\src\AdvancedMediaPlayer.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPAdapter\src\AudioPlayer.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPAdapter\src\MediaAdapter.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPAdapter\src\MediaPlayer.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPAdapter\src\Mp4Player.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPAdapter\src\VlcPlayer.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPFactory\src\AbstractFactory.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPFactory\src\AllObjects.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPFactory\src\Blue.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPFactory\src\Circle.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPFactory\src\Color.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPFactory\src\ColorFactory.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPFactory\src\FactoryProducer.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPFactory\src\Green.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPFactory\src\Item.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPFactory\src\Main.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPFactory\src\Rectangle.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPFactory\src\Red.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPFactory\src\Shape.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPFactory\src\ShapeFactory.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPFactory\src\Square.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPObserver\src\BinaryObserver.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPObserver\src\HexaObserver.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPObserver\src\Observer.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPObserver\src\ObserverPatternDemo.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPObserver\src\OctalObserver.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\designpattern\TPObserver\src\Subject.java">
+<error line="4" severity="error" message="L&apos;utilisation des import.* est prohibé - java.util.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp11\Main.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp11\manager\Game.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp11\model\AircraftCarrier.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp11\model\Box.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp11\model\Corvette.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp11\model\Cruiser.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp11\model\Destroyer.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp11\model\Player.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp11\model\Ship.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp11\package-info.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp1\TP1.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp2\TP2.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp3\TP3.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp4\TP4.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp5\TP5.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp6\TP6.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp9\TP9.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp9\TP9Correction.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp9objet\Main.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="58" column="56" severity="error" message="Le bloc devrait contenir au moins une instruction." source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp9objet\manager\Donjon.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp9objet\manager\PlayerManager.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp9objet\model\Armor.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp9objet\model\Player.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp9objet\model\Stats.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\capgemini\tp\tp9objet\model\Weapon.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\coucou\test\Application.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\coucou\test\manager\Donjon.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\coucou\test\manager\PlayerManager.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\coucou\test\model\Armor.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\coucou\test\model\Player.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\coucou\test\model\Stats.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\coucou\test\model\Weapon.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\AlgoToJava.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\TP18\TP18.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="12" severity="error" message="L&apos;utilisation des import.* est prohibé - com.tactfactory.algotojava.TP18.model.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\TP18\manager\CheminDeFer.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\TP18\model\Animal.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\TP18\model\Contenu.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\TP18\model\Gare.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\TP18\model\MachineDeTete.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\TP18\model\Marchandise.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\TP18\model\MarchandiseAnimal.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\TP18\model\PartieDeTrain.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\TP18\model\Passager.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\TP18\model\Rail.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\TP18\model\Train.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\TP18\model\Trajet.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\TP18\model\TypeRail.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\TP18\model\Wagon.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11\TP11.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11\manager\Jeu.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11\model\Case.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11\model\Corvette.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11\model\Croiseur.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11\model\Destroyer.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11\model\Joueur.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11\model\Navire.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11\model\PorteAvion.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11bis\TP11.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11bis\model\Achetable.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11bis\model\Client.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11bis\model\Echoppe.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11bis\model\Emballage.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11bis\model\Produit.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11bis\model\produits\Fruit.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11bis\model\produits\Jouet.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11bis\model\produits\Legume.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11bis\model\produits\Soda.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11bis\model\produits\Viande.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp11procedural\TP11.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp12\TP12.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp12\utils\Conjugateur.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="12" column="38" severity="error" message="Le nom &apos;sc&apos; n&apos;est pas conforme à l&apos;expression &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp13\TP13.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp13\utils\StringUtil.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp15\TP15.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp15\utils\FileUtil.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp16\TP16.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp16\manager\PasswordDiscoverer.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp16\manager\TreeManager.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp16\model\TermTree.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp16\model\Tree.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp16\utils\TreeFileUtil.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\TP17.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\database\DBManager.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\database\DBOpenHelper.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\database\manager\DBItemManager.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\database\model\ArmePhysiqueDB.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\database\model\DBBaseItem.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\manager\Combat.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\manager\Jeu.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\manager\LootGenerator.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\manager\PersonnageBuilder.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\Arme.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\ArmeMagique.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\ArmeMixte.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\ArmePhysique.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\Armure.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\ArmureMagique.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\ArmureMixte.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\ArmurePhysique.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\Butin.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\Characteristic.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\Hero.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\Mob.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\Personnage.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\Statable.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\rpg\Barbare.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\rpg\Classe.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\rpg\Mage.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\rpg\Paladin.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\rpg\defaultclasse\DefaultBarbare.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\rpg\defaultclasse\DefaultFighter.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\rpg\defaultclasse\DefaultMage.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\model\rpg\defaultclasse\DefaultPaladin.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\TP18.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\manager\GameManager.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\manager\HoldemGameManager.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\Card.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\CardValue.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\Carreau.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\Coeur.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\Dealer.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\Deck.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\Family.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\Game.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\Human.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\Pique.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\Player.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\Printable.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\Trefle.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\poker\Poker.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\poker\PokerActions.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\poker\PokerDealer.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\poker\PokerDeck.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\poker\PokerGame.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\poker\PokerPlayer.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\poker\PokerUtil.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\poker\frenchpoker\FrenchPoker.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\poker\frenchpoker\FrenchPokerDealer.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\poker\holdem\DealerHoldem.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\poker\holdem\GameHoldem.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\poker\holdem\Holdem.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\poker\holdem\HoldemDealer.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\poker\holdem\HoldemGame.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\poker\holdem\PlayerHoldem.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\poker\holdem\PlayerHoldemHuman.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\poker\holdem\PlayerHoldemIA.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\utils\ListUtil.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp1\TP1.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp2\TP2.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp3\TP3.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp4\TP4.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp5\TP5.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp6\TP6.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp7\TP7.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp9\TP9.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp9\manager\Bataille.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp9\model\Arme.java">
+<error line="0" severity="error" message="Manquant fichier package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp9\model\ArmeType.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp9\model\Armure.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp9\model\ArmureType.java">
+</file>
+<file name="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp9\model\Personnage.java">
+</file>
+</checkstyle>

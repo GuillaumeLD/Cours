@@ -1,0 +1,18 @@
+package main.java.com.capgemini.uml.ExosUML;
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class Departement {
+
+    /**
+     * Default constructor
+     */
+    public Departement() {
+    }
+
+
+
+}

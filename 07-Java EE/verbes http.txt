@@ -1,0 +1,7 @@
+Verbe HTTP	REST
+
+GET		Récupération
+POST		création
+PUT		modification pour un seul élément
+DELETE		suppression pour un seul élement
+PATCH		modification ou suppression pour plusieurd éléments

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="Cp1252"?>
+<pmd-cpd>
+   <duplication lines="16" tokens="154">
+      <file line="71"
+            path="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\manager\PersonnageBuilder.java"/>
+      <file line="107"
+            path="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp17\manager\PersonnageBuilder.java"/>
+      <codefragment><![CDATA[	public PersonnageBuilder setDefaultEquipment(){
+		if (this.personnage.getClasse() instanceof Barbare) {
+			this.arme = new ArmePhysique(3, 2);
+			this.armure = new ArmurePhysique(2);
+		}else if (this.personnage.getClasse() instanceof Mage) {
+			this.arme = new ArmeMagique(3, 2);
+			this.armure = new ArmureMagique(2);
+		}else if (this.personnage.getClasse() instanceof Paladin) {
+			this.arme = new ArmeMixte(new ArmePhysique(2, 1),new ArmeMagique(2, 2));
+			this.armure = new ArmureMixte(new ArmureMagique(2),new ArmurePhysique(2));
+		}else{
+			this.arme = new ArmePhysique(3, 2);
+			this.armure = new ArmurePhysique(2);
+		}
+		return this;
+	}]]></codefragment>
+   </duplication>
+   <duplication lines="12" tokens="116">
+      <file line="3"
+            path="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\Carreau.java"/>
+      <file line="3"
+            path="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\Pique.java"/>
+      <file line="3"
+            path="C:\Users\LEDANVIC\Documents\07-Java EE\Projets\TP\src\main\java\com\tactfactory\algotojava\tp18bis\model\Trefle.java"/>
+      <codefragment><![CDATA[public class Carreau implements Family {
+	
+	public final static String[][] POKER_DECK = new String[][] { { "A ", "_A", "14" }, { "R ", "_R", "13" },
+		{ "D ", "_D", "12" }, { "V ", "_V", "11" }, { "10", "10", "10" }, { "9 ", "_9", "9" }, { "8 ", "_8", "8" },
+		{ "7 ", "_7", "7" }, };
+
+	@Override
+	public String getRepresentation() {
+		StringBuilder card = new StringBuilder();
+		card.append(" _____ ");
+		card.append("\n");
+		card.append("|%s^  |");]]></codefragment>
+   </duplication>
+</pmd-cpd>

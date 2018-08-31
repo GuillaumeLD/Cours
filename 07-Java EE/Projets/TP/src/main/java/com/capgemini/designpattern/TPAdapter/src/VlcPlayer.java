@@ -1,0 +1,17 @@
+package com.capgemini.designpattern.TPAdapter.src;
+
+
+import java.util.*;
+
+/**
+ * 
+ */
+public class VlcPlayer {
+
+    /**
+     * Default constructor
+     */
+    public VlcPlayer() {
+    }
+
+}

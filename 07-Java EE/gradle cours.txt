@@ -1,0 +1,21 @@
+Gradle = agrégation de Maven et de Ant
+
+Maven --> gestionnaire de dépendance (librairies externes)
+ant --> outil de scripting
+(ex: script le lancement de tests unitaires,
+	script de deploiement sur un serveur,
+	script de diverses fonctionnalités pour gérer le projet)
+Ainsi, Maven peut etre lancé depuis un script avec Ant
+
+Gradle fonctionne avec un systeme de pluging,
+qui embarque deja des fonctionnalités
+(ex: un plugin Java, un plugin de creation de .jar, 
+	pour eclipse, pour gérer de la qualité de code, etc)
+
+un fichier build.gradle à l'interieur de notre projet,
+possedera un lot de configuration gradle pour le projet.
+
+Choix
+- installer gradle de maniere complete et globale
+- utiliser un wrapper pour gradle (un fichier gradle 
+wrapper)
